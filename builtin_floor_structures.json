@@ -2,26 +2,7 @@
   "_meta": {
     "version": "1.0",
     "description": "내장 바닥구조 프리셋 (바닥충격음 차단구조 인정서 기반)"
-  },
-  "소닉스 U30 시스템 (제23-08호)": {
-    "source": "builtin",
-    "cert_no": "제23-08호",
-    "slab": {
-      "thickness": 210,
-      "strength": 24,
-      "density": 2300
-    },
-    "elastic": {
-      "thickness": 30,
-      "dynamic_stiffness": 19.1,
-      "loss_factor": 0.2
-    },
-    "subslab_layers": [],
-    "floating_layers": [
-      {"name": "경량기포콘크리트", "thickness": 40, "strength": 1.8,  "density": 500},
-      {"name": "마감모르타르",     "thickness": 40, "strength": 14.4, "density": 2100}
-    ]
-  },
+  },  
   "L4-SIB30A-210 (제20-01호)": {
     "source": "builtin",
     "cert_no": "제20-01호",
@@ -58,6 +39,101 @@
     "floating_layers": [
       {"name": "경량기포콘크리트", "thickness": 40, "strength": 0.9,  "density": 500},
       {"name": "마감모르타르",     "thickness": 40, "strength": 13.5, "density": 2100}
+    ]
+  },
+  "L5-DL30B-210 (제21-05호)": {
+    "source": "builtin",
+    "cert_no": "제21-05호",
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 20.2,
+      "loss_factor": 0.2
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {"name": "모르타르", "thickness": 40, "strength": 15.4,  "density": 2100},
+      {"name": "마감모르타르", "thickness": 40, "strength": 13.3, "density": 2100}
+    ]
+  },
+  "L5-DL30C-210 (제21-06호)": {
+    "source": "builtin",
+    "cert_no": "제21-06호",
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 20.9,
+      "loss_factor": 0.2
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {"name": "모르타르", "thickness": 40, "strength": 16.5,  "density": 2100},
+      {"name": "마감모르타르", "thickness": 40, "strength": 13.8, "density": 2100}
+    ]
+  },
+  "H 사일런트 홈 시스템 I (제21-07호)": {
+    "source": "builtin",
+    "cert_no": "제21-07호",
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 2.3,
+      "loss_factor": 0.2
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {"name": "경량기포콘크리트", "thickness": 30, "strength": 2.4,  "density": 500},
+      {"name": "마감모르타르", "thickness": 40, "strength": 7.8, "density": 2100}
+    ]
+  },
+  "L6-EV30B3-210 (제21-15호)": {
+    "source": "builtin",
+    "cert_no": "제21-15호",
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 23.8,
+      "loss_factor": 0.2
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {"name": "경량기포콘크리트", "thickness": 40, "strength": 1.5,  "density": 500},
+      {"name": "마감모르타르", "thickness": 40, "strength": 16.2, "density": 2100}
+    ]
+  },
+  "소닉스 U30 시스템 (제23-08호)": {
+    "source": "builtin",
+    "cert_no": "제23-08호",
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 19.1,
+      "loss_factor": 0.2
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {"name": "경량기포콘크리트", "thickness": 40, "strength": 1.8,  "density": 500},
+      {"name": "마감모르타르",     "thickness": 40, "strength": 14.4, "density": 2100}
     ]
   },
   "DI-DJ-II system (KF17-1205-1)": {
