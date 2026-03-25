@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "내장 현장 평면도 프리셋 (KS F ISO 16283-2 기준 표준시험실)"
+  },
+  "표준시험실 84타입": {
+    "source": "builtin",
+    "vibration": {"width": 8.58, "depth": 10.23},
+    "acoustic":  {"width": 4.70, "depth": 10.23},
+    "floor_plan": {
+      "image_path": "floor_plans/84type.png",
+      "scale_px_per_m": null,
+      "vibration_rect_px": null,
+      "acoustic_rect_px":  null
+    }
+  },
+  "표준시험실 59타입": {
+    "source": "builtin",
+    "vibration": {"width": 7.48, "depth": 10.03},
+    "acoustic":  {"width": 3.90, "depth": 10.03},
+    "floor_plan": {
+      "image_path": "floor_plans/59type.png",
+      "scale_px_per_m": null,
+      "vibration_rect_px": null,
+      "acoustic_rect_px":  null
+    }
+  }
+}
