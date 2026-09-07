@@ -1449,7 +1449,7 @@
       }
     ]
   },
-  "AnwoollimH-Reo-SP1": {
+  "Anwoollim-Reo-SP1": {
     "source": "builtin",
     "cert_no": "제23-15호",
     "grade": {
@@ -3524,8 +3524,8 @@
     "source": "builtin",
     "cert_no": "제25-23호",
     "grade": {
-      "tapping": 2,
-      "ball": 4
+      "tapping": 1,
+      "ball": 2
     },
     "slab": {
       "thickness": 210,
@@ -7737,43 +7737,6 @@
     "elastic": {
       "thickness": 30,
       "dynamic_stiffness": 9.9,
-      "dynamic_stiffness_measured_min": null,
-      "dynamic_stiffness_measured_max": null,
-      "loss_factor": 0.2,
-      "loss_factor_measured_min": null,
-      "loss_factor_measured_max": null
-    },
-    "subslab_layers": [],
-    "floating_layers": [
-      {
-        "name": "경량기포콘크리트",
-        "thickness": 40,
-        "strength": 1.0,
-        "density": 500
-      },
-      {
-        "name": "마감모르타르",
-        "thickness": 40,
-        "strength": 21.0,
-        "density": 2100
-      }
-    ]
-  },
-  "Zero Sound Foam-0300": {
-    "source": "builtin",
-    "cert_no": "제18-04호",
-    "grade": {
-      "tapping": 1,
-      "ball": 4
-    },
-    "slab": {
-      "thickness": 210,
-      "strength": 24,
-      "density": 2300
-    },
-    "elastic": {
-      "thickness": 30,
-      "dynamic_stiffness": 18.0,
       "dynamic_stiffness_measured_min": null,
       "dynamic_stiffness_measured_max": null,
       "loss_factor": 0.2,
