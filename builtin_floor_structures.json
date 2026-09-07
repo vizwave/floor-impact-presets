@@ -1548,7 +1548,7 @@
       }
     ]
   },
-  "AnwoollimH-Reo-SP2": {
+  "Anwoollim-Reo-SP2": {
     "source": "builtin",
     "cert_no": "제23-18호",
     "grade": {
@@ -3052,7 +3052,7 @@
       "ball": 2
     },
     "slab": {
-      "thickness": 250,
+      "thickness": 210,
       "strength": 24,
       "density": 2300
     },
@@ -3355,7 +3355,7 @@
       "ball": 1
     },
     "slab": {
-      "thickness": 210,
+      "thickness": 250,
       "strength": 24,
       "density": 2300
     },
@@ -7966,6 +7966,111 @@
         "name": "마감모르타르",
         "thickness": 60,
         "strength": 15.4,
+        "density": 2100
+      }
+    ]
+  },
+  "AVS-IT301": {
+    "source": "builtin",
+    "cert_no": "KF16-0401-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 15.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감몰탈",
+        "thickness": 40,
+        "strength": 21.0,
+        "density": 2100
+      }
+    ]
+  },
+  "HENP-DS30 시스템": {
+    "source": "builtin",
+    "cert_no": "KF16-0525-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 30.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 21.0,
+        "density": 2100
+      }
+    ]
+  },
+  "AVS-FL601 시스템": {
+    "source": "builtin",
+    "cert_no": "KF16-0623-1a",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 14.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감몰탈",
+        "thickness": 40,
+        "strength": 21.0,
         "density": 2100
       }
     ]
